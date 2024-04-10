@@ -1,0 +1,85 @@
+/* Write your CSS here */
+
+body {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #807575;
+}
+
+.tower {
+  width: 20px;
+  height: 200px;
+  background-color: #383333;
+  position: relative;
+  margin: 0 10px;
+  border-radius: 10px;
+}
+
+.disk {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  bottom: 0;
+  border-radius: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.disk-1 {
+  background-color: #ffb0d6;
+}
+.disk-2 {
+  background-color: #b1fcbf;
+}
+.disk-3 {
+  background-color: #abb2ff;
+}
+.disk-4 {
+  background-color: #ffe16b;
+}
+
+.btn {
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  padding: 10px;
+  background-color: #b1fcbf;
+  color: #585151;
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn:hover {
+  background-color: #93e0a4;
+  color: #ffffff;
+}
+
+h1 {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: lighter;
+  color: #b1fcbf;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: #807575;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+}
